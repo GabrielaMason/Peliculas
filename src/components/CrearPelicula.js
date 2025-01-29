@@ -26,7 +26,7 @@ export const CrearPelicula = () => {
         setMovieState(movie);
 
         // Almacenamiento local
-        SaveInStorage(movie);
+        SaveInStorage('pelis', movie);
     }
 
     return (
