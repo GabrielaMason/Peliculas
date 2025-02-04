@@ -13,11 +13,11 @@ body {
   display: grid;
   /* */
   grid-template-areas:
-      "header header header header"
-      "nav nav nav nav"
-      "content content content lateral"
-      /* Aqui 3 son para el content y una para lateral */
-      "footer footer footer footer"
+    "header header header header"
+    "nav nav nav nav"
+    "content content content lateral"
+    /* Aqui 3 son para el content y una para lateral */
+    "footer footer footer footer"
   ;
   /* Diferentes lineas que indican las columnas */
 
@@ -168,8 +168,8 @@ input[type="button"] {
   box-shadow: 0 0 6px #ddd;
 }
 
-.lateral input[type="text"],
-.lateral textarea {
+input[type="text"],
+textarea {
   display: block;
   margin: 0 auto;
   margin-top: 15px;
@@ -205,12 +205,12 @@ input[type="button"] {
 
   /* Cuando baje de ese tamaño */
   .content {
-      flex-flow: column wrap;
-      justify-content: center;
-      align-items: center;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
   }
 
   .peli-item {
-      width: 80%;
+    width: 80%;
   }
 }
