@@ -183,6 +183,10 @@ textarea {
   border-color: transparent;
 }
 
+.not_found {
+  color: red;
+}
+
 /* Estilos para el pie de pagina */
 
 .footer {
@@ -199,6 +203,7 @@ textarea {
   color: #0b468a;
   text-decoration: none;
 }
+
 
 /* Estilos responsivos */
 @media (max-width: 1085px) {
